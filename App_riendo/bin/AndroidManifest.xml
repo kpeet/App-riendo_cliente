@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.peet.kenneth.app_riendo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8" />
+       
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+          <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+           		<category android:name="android.intent.category.LAUNCHER" />
+           	</intent-filter>
+            
+        </activity>
+        <activity android:name=".Agregar_arriendo"></activity>
+        <activity android:name=".App_riendo"></activity>
+        <activity android:name=".Ver_mis_arriendos"></activity>
+        <activity android:name=".Buscar_arriendo"></activity>
+        <activity android:name=".Arriendos_encontrados"></activity>
+        <activity android:name=".Fijar_filtro_usuario"></activity>
+        <activity android:name=".Registrar_usuario"></activity>
+        
+    </application>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.CALL_PHONE"/> 
+ <uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

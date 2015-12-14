@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">App_riendo</string>
+	<string name="titulo_mis_arriendos">Mis Arriendos</string>
+	<string name="titulo_registro_usuario">Registro Usuario</string>
+	<string name="titulo_agregar_arriendo">Agregar Arriendo</string>
+	<string name="agregar_arriendo">Agregar Arriendo</string>
+	<string name="buscar_arriendo_btn">Buscar Arriendo</string>
+	<string name="filtrar_btn">Ingresar Filtro</string>
+	<string name="titulo_filtro_usuario">Filtro de Busqueda</string>
+	<string name="titulo_busqueda_arriendo">Busqueda Arriendos</string>
+	<string name="modificar_filtro_btn">Modificar filtro</string>
+	<string-array name="cuidades_direccion">
+	    <item>Santiago</item>
+	    <item>Valparaiso</item>
+	    <item>Vina del mar</item>
+	</string-array>
+</resources>
